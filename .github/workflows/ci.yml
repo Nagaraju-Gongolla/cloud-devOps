@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - dockerBasic
+  workflow_dispatch:
 
 jobs:
   build:
